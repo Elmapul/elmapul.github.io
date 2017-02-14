@@ -1,8 +1,8 @@
 function carregar(){
- var c = document.getElementById("Canvas");
-    var ctx = c.getContext("2d");
-    var img = document.getElementById("alvo");
-    ctx.drawImage(img, 10, 10);
+ var c2 = document.getElementById("Canvas");
+    var ctx2 = c2.getContext("2d");
+    var img2 = document.getElementById("alvo");
+    ctx2.drawImage(img2, 10, 10);
 }
 
 
