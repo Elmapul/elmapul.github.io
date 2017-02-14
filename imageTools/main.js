@@ -1,4 +1,7 @@
 
+
+function resetar(){
+
     var canvas = document.getElementById("Canvas");
     var ctx = canvas.getContext("2d");
     var img = document.getElementById("image");
@@ -6,10 +9,12 @@
 
     var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var data = imageData.data;
-
-/////////////
-    var start = null;
+var start = null;
     var value=0;
+}
+resetar();
+/////////////
+    
 
     var animar=function(){
 	start=0;
