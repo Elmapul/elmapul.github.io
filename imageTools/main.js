@@ -17,6 +17,7 @@ resetar();
     
 
     var animar=function(){
+resetar();
 	start=0;
 	var contar=0;
 	function step(timestamp) {
