@@ -17,7 +17,10 @@ resetar();
     
 
     var animar=function(){
-resetar();
+   imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+data = imageData.data;
+	    
+	    
 	start=0;
 	var contar=0;
 	function step(timestamp) {
