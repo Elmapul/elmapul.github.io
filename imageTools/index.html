@@ -5,10 +5,27 @@
  <meta charset="UTF-8">
  <meta name="author" content="Igor Giuseppe">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <style type="text/css">
+  .demo-droppable {
+    background: #08c;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .demo-droppable.dragover {
+    background: #00CC71;
+  }
+</style>
+ 
 </head>
 <body>
 
-<p>Image to use:</p>
+<div class="demo-droppable">
+  <p>Drag files here or click to upload</p>
+</div>
+
+ <p>Image to use:</p>
 <img id="image" src="image.jpg"  width="220" height="277">
 
 
