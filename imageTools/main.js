@@ -2,15 +2,15 @@
 
 function resetar(){
 
-    var canvas = document.getElementById("Canvas");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("image");
+     canvas = document.getElementById("Canvas");
+     ctx = canvas.getContext("2d");
+     img = document.getElementById("image");
     ctx.drawImage(img,10,10);
 
-    var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    var data = imageData.data;
-var start = null;
-    var value=0;
+     imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+     data = imageData.data;
+    start = null;
+     value=0;
 }
 resetar();
 /////////////
