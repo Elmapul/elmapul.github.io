@@ -17,7 +17,7 @@ resetar();
     
 
     var animar=function(){
-   imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+   //imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 data = imageData.data;
 	    
 	    
