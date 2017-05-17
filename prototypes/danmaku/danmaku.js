@@ -33,4 +33,4 @@ y=y%100;
     window.requestAnimationFrame(step);
   
 }
-//window.requestAnimationFrame(step);
+window.requestAnimationFrame(step);
