@@ -6,6 +6,8 @@
 //Notes
 //i dont know how to FPGAs works, this simulation isnt accurate to how an processor works or how an FPGA works.
 //this simulation is just an proof of concept based on an vague notion of what an FPGA is.
+//the name of functions and variables is provisory.
+//runtime = the program to run, with the format instruction(param1, param2);
 /////////////////////////////
 
 
@@ -52,7 +54,7 @@ function mul(a,b){return a*b;}
 function div(a,b){return a/b;}
 function mod(a,b){return a%b;}
 //function inc(a){return a++}
-//function dec(b){return a--}
+//function dec(a){return a--}
 
 
 
@@ -92,10 +94,12 @@ function clock(indice, instrunctionsPerClock){
 
 function testProcessor(){
 test=0;
+clockCycles=0;
 do{
 test=clock(test,4);
+clockCycles++;
 }while (test<runtime.length);
-
+console.log("clockCycles:" + clockCycles );
 }
 
 
